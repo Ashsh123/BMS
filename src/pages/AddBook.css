@@ -1,0 +1,54 @@
+.parent2 {
+    height: 100vh;
+    margin: 2px;
+    border: 2px solid black;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/049/855/259/non_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg");
+    background-size: cover;
+  }
+.add-book{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    opacity: 0.5;
+    border: 10px double black;
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-top: 30px;
+    align-items: center;
+}
+#AddBook-form{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.add-book #AddBook-form button{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 35px;
+    border-radius: 18px;
+    margin-top: 19px;
+}
+
+.add-book h1{
+    text-align: center;
+    color: black;
+}
+
+.add-book input{
+    padding: 10px;
+    width: 380px;
+    border-radius: 8px;
+    height: 48px;
+    border: 2px solid black;
+}
+
+.add-book textarea{
+    width: 380px;
+    height: 48px;
+    border-radius: 8px;
+}

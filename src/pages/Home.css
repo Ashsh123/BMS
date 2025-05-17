@@ -1,0 +1,41 @@
+.cardBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+    animation: fadeIn 0.8s ease forwards;
+    opacity: 0;
+    box-shadow: 0 0 5px black;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .edit-btn,
+  .delete-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }

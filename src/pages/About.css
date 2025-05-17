@@ -1,0 +1,31 @@
+.About-child1{
+    height: 80vh;
+    width: 100vw;
+    background-color:  rgb(255, 248, 220);
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    padding-left: 60px;
+}
+.About-child1 h1{
+    color: black;
+}
+.About-child1 img{
+    height: 550px;
+    width: 800px;
+}
+#About-child1-first-image{
+    height: 60px;
+    width: 60px;
+}
+.About-child2{
+    background-color: rgba(255, 0, 0, 0.277);
+    margin-top: 10px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

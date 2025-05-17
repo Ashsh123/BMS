@@ -1,0 +1,38 @@
+.parent2 {
+    height: 90vh;
+    margin: 2px;
+    border: 2px solid black;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/049/855/259/non_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg");
+    background-size: cover;
+  }
+  .parent3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    /* align-items: center; */
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 25px;
+    height: 550px;
+    padding: 20px;
+    color: black;
+    border: 10px double white;
+  }
+  
+  .parent3 input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 8px;
+    height: 35px;
+    border: 2px solid black;
+  }
+  
+  #signin-form{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
